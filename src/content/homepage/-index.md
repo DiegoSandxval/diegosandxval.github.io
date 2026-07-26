@@ -1,53 +1,51 @@
 ---
-# Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Web Developer & Software Analyst"
+  content: "Personal portfolio and technical blog showcasing my experience in web development, backend technologies, and continuous learning in computer science."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Astroplate&repository=https://github.com/zeon-studio/astroplate/"
+    label: "View My Projects 🚀"
+    link: "/projects"
 
-# Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "About Me"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "Mobile Application Development Technician and Computer Science undergraduate with professional experience as a Web Developer and Development Analyst."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Astro"
-    image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
-
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "3+ years of experience in software development and analysis"
+      - "Strong background in web and backend development"
+      - "Experience working with internal and customer-facing systems"
+      - "Focused on clean code, performance, and usability"
     button:
       enable: false
       label: ""
       link: ""
+
+  - title: "Technical Skills"
+    image: "/images/service-2.png"
+    content: "Technologies and tools I use to build reliable and scalable software solutions."
+    bulletpoints:
+      - "C#, .NET, SQL Server"
+      - "HTML, CSS, JavaScript, jQuery"
+      - "REST API integration"
+      - "Mobile development with Kotlin"
+      - "Version control with Git"
+    button:
+      enable: false
+      label: ""
+      link: ""
+
+  - title: "Projects & Learning"
+    image: "/images/service-3.png"
+    content: "A collection of projects, experiments, and continuous learning in software development and emerging technologies."
+    bulletpoints:
+      - "Personal and professional web projects"
+      - "Backend and database-driven applications"
+      - "Exploration of AI, data, and automation concepts"
+      - "Technical notes and learning resources"
+    button:
+      enable: true
+      label: "Explore Projects"
+      link: "/projects"
 ---

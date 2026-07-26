@@ -1,19 +1,26 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
+title: "Hi, I’m Diego Sandoval"
+meta_title: "About Me"
+description: "Web Developer with over 3 years of experience working with .NET, C#, JavaScript, and modern web technologies, with strong interest in mobile, backend, frontend, and AI optimization."
 image: "/images/image-placeholder.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I am a **Web Developer** with over **three years of professional experience**, primarily focused on building, maintaining, and supporting web applications. Most of my work has involved **.NET, C#, JavaScript, HTML, and CSS**, where I have contributed to the creation and ongoing support of web pages and internal systems.
 
-### This is a title
+In addition to web development, I have a strong background in **mobile application development**, having studied and worked with **Kotlin and Java**. This experience has allowed me to understand application logic across different platforms and adapt easily between web and mobile environments.
 
-* Lorem ipsum, dolor sit amet
-* Enim voluptatem dicta expedita veritatis
-* Fugit voluptatibus perspiciatis assumenda
-* Enim voluptatem dicta expedita
-* Corporis illum nesciunt commodi vel
+Throughout my career, I have also worked with **modern frontend frameworks such as Vue and React**, participating in projects that required responsive interfaces, API integration, and collaboration with cross-functional teams.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+### What I Work With
+
+- **Backend & Web Development:** C#, .NET, SQL Server  
+- **Frontend Development:** JavaScript, HTML, CSS  
+- **APIs:** REST API integration  
+- **Mobile Development:** Kotlin (Android)  
+- **Tools & Practices:** Git, version control, collaborative development  
+- **Emerging Technologies:** AI optimization and Prompt Engineering  
+
+I am particularly interested in **mobile development, backend systems, and frontend technologies**, as well as exploring how **artificial intelligence** can be used to optimize processes, improve performance, and enhance software solutions.
+
+This space serves as my **professional portfolio and technical blog**, where I share projects, experiments, and continuous learning as I grow as a developer and expand my skills across different areas of software development.

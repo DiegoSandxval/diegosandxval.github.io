@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+     "title": "Diego Sandoval | Full-Stack Software Developer",
+    "base_url": "https://diegosandxval.github.io",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo": "",
+    "logo_darkmode": "",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_text": "Diego Sandoval"
   },
 
   "settings": {
@@ -17,42 +17,35 @@
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 2,
-    "summary_length": 200,
+    "pagination": 6,
+    "summary_length": 160,
     "blog_folder": "blog"
-  },
-
-  "announcement": {
-    "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
-    "expire_days": 7
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "© 2026 Diego Sandoval. Built with Astro and TypeScript."
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Github",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "GitHub",
+    "link": "https://github.com/DiegoSandxval"
   },
-
   "google_tag_manager": {
     "enable": false,
-    "gtm_id": "GTM-XXXXXX"
+    "gtm_id": ""
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Diego Alberto Sandoval Rivera",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Portfolio of Diego Sandoval, a Full-Stack Software Developer experienced in .NET, C#, JavaScript, SQL Server, API development, and business software solutions."
   }
 }

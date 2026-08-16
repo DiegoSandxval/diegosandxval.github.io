@@ -100,7 +100,42 @@ const homepageCollection = defineCollection({
   }),
 });
 
+// Projects collection schema
+const projectsCollection = defineCollection({
+  loader: glob({
+    pattern: "**/*.{md,mdx}",
+    base: "src/content/projects",
+  }),
 
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+
+    category: z.enum([
+      "frontend",
+      "backend",
+      "full-stack",
+      "mobile",
+      "automation",
+    ]),
+
+    technologies: z.array(z.string()).min(1),
+
+    status: z.enum([
+      "completed",
+      "in-progress",
+      "planned",
+    ]),
+
+    image: z.string().optional(),
+
+    repository_url: z.string().url().optional(),
+    live_url: z.string().url().optional(),
+
+    featured: z.boolean().default(false),
+    draft: z.boolean().default(false),
+  }),
+});
 // Export collections
 export const collections = {
   // Pages
@@ -110,5 +145,6 @@ export const collections = {
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,
+  projects: projectsCollection,
 
 };

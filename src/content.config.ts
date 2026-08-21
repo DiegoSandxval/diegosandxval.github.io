@@ -123,7 +123,6 @@ export const collections = {
   // Pages
   homepage: homepageCollection,
   blog: blogCollection,
-  authors: authorsCollection,
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,

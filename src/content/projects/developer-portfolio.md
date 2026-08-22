@@ -16,7 +16,7 @@ repository_url: "https://github.com/DiegoSandxval/diegosandxval.github.io"
 live_url: "https://diegosandxval.github.io"
 
 featured: true
-draft: false
+draft: true
 ---
 
 ## About the project

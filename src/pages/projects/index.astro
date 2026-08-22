@@ -1,0 +1,111 @@
+---
+import Base from "@/layouts/Base.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getCollection } from "astro:content";
+
+const projects = (await getCollection("projects"))
+  .filter((project) => !project.data.draft);
+---
+
+<Base
+  title="Projects"
+  description="A selection of software development projects I have built and worked on."
+>
+  <PageHeader title="Projects" />
+
+  <section class="section">
+    <div class="container">
+
+      {
+        projects.length === 0 ? (
+          <div class="text-center">
+            <p>No projects available yet.</p>
+          </div>
+        ) : (
+          <div class="row">
+            {
+              projects.map((project) => {
+                const {
+                  title,
+                  description,
+                  category,
+                  technologies,
+                  status,
+                  repository_url,
+                  live_url,
+                } = project.data;
+
+                return (
+                  <div class="mb-8 md:col-6 lg:col-4">
+                    <div class="h-full rounded-xl border border-border p-6 dark:border-darkmode-border">
+
+                      <div class="mb-4 flex items-center justify-between">
+                        <span class="text-sm font-medium capitalize">
+                          {category}
+                        </span>
+
+                        <span class="text-sm capitalize">
+                          {status.replace("-", " ")}
+                        </span>
+                      </div>
+
+                      <h2 class="h4 mb-3">
+                        {title}
+                      </h2>
+
+                      <p class="mb-5">
+                        {description}
+                      </p>
+
+                      <div class="mb-6 flex flex-wrap gap-2">
+                        {
+                          technologies.map((technology) => (
+                            <span class="rounded-md border border-border px-3 py-1 text-sm dark:border-darkmode-border">
+                              {technology}
+                            </span>
+                          ))
+                        }
+                      </div>
+
+                      <div class="flex flex-wrap gap-3">
+
+                        {
+                          repository_url && (
+                            <a
+                              href={repository_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="btn btn-primary"
+                            >
+                              View Repository
+                            </a>
+                          )
+                        }
+
+                        {
+                          live_url && (
+                            <a
+                              href={live_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="btn btn-outline-primary"
+                            >
+                              Live Demo
+                            </a>
+                          )
+                        }
+
+                      </div>
+
+                    </div>
+                  </div>
+                );
+              })
+            }
+          </div>
+        )
+      }
+
+    </div>
+  </section>
+</Base>

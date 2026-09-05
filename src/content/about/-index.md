@@ -1,26 +1,48 @@
 ---
 title: "Hi, I’m Diego Sandoval"
-meta_title: "About Me"
-description: "Web Developer with over 3 years of experience working with .NET, C#, JavaScript, and modern web technologies, with strong interest in mobile, backend, frontend, and AI optimization."
-image: "/images/image-placeholder.png"
+meta_title: "About Me | Diego Sandoval"
+description: "Software Developer with 3+ years of experience building and maintaining web applications using .NET, C#, SQL Server, JavaScript, REST APIs, and modern web technologies."
+image: "/images/diego.jpg"
 draft: false
 ---
 
-I am a **Web Developer** with over **three years of professional experience**, primarily focused on building, maintaining, and supporting web applications. Most of my work has involved **.NET, C#, JavaScript, HTML, and CSS**, where I have contributed to the creation and ongoing support of web pages and internal systems.
+I’m a **Software Developer with 3+ years of professional experience** building, maintaining, and improving web applications and business systems.
 
-In addition to web development, I have a strong background in **mobile application development**, having studied and worked with **Kotlin and Java**. This experience has allowed me to understand application logic across different platforms and adapt easily between web and mobile environments.
+My main experience is centered around **C#, .NET, ASP.NET Core, SQL Server, JavaScript, REST APIs, HTML, and CSS**, working across backend development, system integrations, troubleshooting, database operations, and application modernization.
 
-Throughout my career, I have also worked with **modern frontend frameworks such as Vue and React**, participating in projects that required responsive interfaces, API integration, and collaboration with cross-functional teams.
+Throughout my career, I have contributed to **enterprise applications, internal business systems, APIs, transactional processes, and web solutions**, taking ownership of tasks from requirement analysis and development to testing, debugging, and implementation.
 
-### What I Work With
+I also have a background in **mobile application development**, particularly with **Kotlin and Android**, which has helped me develop a broader understanding of software architecture, application logic, and user-focused development across different platforms.
 
-- **Backend & Web Development:** C#, .NET, SQL Server  
-- **Frontend Development:** JavaScript, HTML, CSS  
-- **APIs:** REST API integration  
-- **Mobile Development:** Kotlin (Android)  
-- **Tools & Practices:** Git, version control, collaborative development  
-- **Emerging Technologies:** AI optimization and Prompt Engineering  
+I enjoy learning new technologies and continuously improving the way I build software. More recently, I have been exploring how **Artificial Intelligence, automation, and Prompt Engineering** can support development workflows, troubleshooting, documentation, testing, and process optimization.
 
-I am particularly interested in **mobile development, backend systems, and frontend technologies**, as well as exploring how **artificial intelligence** can be used to optimize processes, improve performance, and enhance software solutions.
+### Technologies I Work With
 
-This space serves as my **professional portfolio and technical blog**, where I share projects, experiments, and continuous learning as I grow as a developer and expand my skills across different areas of software development.
+**Backend**  
+C#, .NET, ASP.NET Core, ASP.NET MVC, Web APIs
+
+**Databases**  
+SQL Server, Stored Procedures, Database Integration
+
+**Frontend**  
+JavaScript, HTML, CSS, jQuery, Vue
+
+**APIs & Integrations**  
+REST APIs, Backend Services, System Integrations
+
+**Mobile Development**  
+Kotlin, Android
+
+**Tools & Practices**  
+Git, Version Control, Debugging, Testing, API Testing, Agile Collaboration
+
+**AI & Automation**  
+AI-Assisted Development, Prompt Engineering, Process Automation
+
+### What I’m Interested In
+
+I’m particularly interested in **backend development, modern web applications, APIs, mobile development, system integrations, and software modernization**.
+
+I also enjoy exploring how **AI and automation can be integrated into software development** to improve productivity, reduce repetitive work, and create better technical solutions.
+
+This portfolio is where I showcase my **projects, technical experiments, professional experience, and continuous learning** as I continue growing as a software developer.

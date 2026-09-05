@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "Web Developer & Software Analyst"
-  content: "Personal portfolio and technical blog showcasing my experience in web development, backend technologies, and continuous learning in computer science."
+  title: "Software Developer | .NET, C# & Web Applications"
+  content: "Personal portfolio showcasing my experience building, maintaining, and modernizing web applications, APIs, backend services, and business systems."
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,12 +11,13 @@ banner:
 features:
   - title: "About Me"
     image: "/images/service-1.png"
-    content: "Mobile Application Development Technician and Computer Science undergraduate with professional experience as a Web Developer and Development Analyst."
+    content: "Software Developer with 3+ years of professional experience working on web applications, backend services, APIs, databases, and internal business systems."
     bulletpoints:
-      - "3+ years of experience in software development and analysis"
-      - "Strong background in web and backend development"
-      - "Experience working with internal and customer-facing systems"
-      - "Focused on clean code, performance, and usability"
+      - "3+ years of professional software development experience"
+      - "Experience with enterprise and customer-facing applications"
+      - "Strong background in .NET, C#, SQL Server, and REST APIs"
+      - "Experience troubleshooting, testing, and modernizing existing systems"
+      - "Currently pursuing a Bachelor’s degree in Computer Science"
     button:
       enable: false
       label: ""
@@ -24,26 +25,28 @@ features:
 
   - title: "Technical Skills"
     image: "/images/service-2.png"
-    content: "Technologies and tools I use to build reliable and scalable software solutions."
+    content: "Technologies and tools I use to build, integrate, maintain, and improve software solutions."
     bulletpoints:
-      - "C#, .NET, SQL Server"
-      - "HTML, CSS, JavaScript, jQuery"
-      - "REST API integration"
-      - "Mobile development with Kotlin"
-      - "Version control with Git"
+      - "C#, .NET, ASP.NET Core, ASP.NET MVC"
+      - "SQL Server and Stored Procedures"
+      - "HTML, CSS, JavaScript, jQuery, Vue"
+      - "REST APIs and System Integrations"
+      - "Kotlin and Android Development"
+      - "Git, Debugging, Testing, and API Testing"
     button:
       enable: false
       label: ""
       link: ""
 
-  - title: "Projects & Learning"
+  - title: "Projects & Continuous Learning"
     image: "/images/service-3.png"
-    content: "A collection of projects, experiments, and continuous learning in software development and emerging technologies."
+    content: "A collection of software projects, technical experiments, and technologies I continue exploring as part of my professional growth."
     bulletpoints:
-      - "Personal and professional web projects"
-      - "Backend and database-driven applications"
-      - "Exploration of AI, data, and automation concepts"
-      - "Technical notes and learning resources"
+      - "Web and backend application development"
+      - "API and database-driven solutions"
+      - "Legacy application modernization"
+      - "AI-assisted development and automation"
+      - "Personal projects and technical experiments"
     button:
       enable: true
       label: "Explore Projects"
